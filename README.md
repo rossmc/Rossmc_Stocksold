@@ -2,7 +2,7 @@
 #### Overview
 This Magento module adds a new report to the *Reports > Products* section called *Stock Items Ordered*.  The Report is based on Magento's Products Ordered Report but lists out simple products ordered rather than their parent/super product (if they are part of a configurable product).  This is more helpful if the reports are being run for stock keeping.  A few extra columns are also added, such as SKU, Attribute set & Manufacture.
 
-![Stock Items Ordered Report](http://rossmchugh.com/wp-content/uploads/2015/12/stock-items-ordered.jpg).
+![Stock Items Ordered Report](http://rossmchugh.com/wp-content/uploads/2015/12/stock-items-ordered.jpg)
 
 The Module is built using the methods outlined this [Atwix blog post](http://www.atwix.com/magento/simple-products-report/) by building from Magento's native functionality without the use for rewrites.
 
