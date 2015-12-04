@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Rossmc_Stocksold>
+      <active>true</active>
+      <codePool>community</codePool>
+      <version>0.1.0</version>
+      <depends>
+        <Mage_Reports />
+      </depends>
+    </Rossmc_Stocksold>
+  </modules>
+</config>

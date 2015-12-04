@@ -1,0 +1,39 @@
+<config>
+    <modules>
+        <Rossmc_Stocksold>
+            <version>1.0.0</version>
+        </Rossmc_Stocksold>
+    </modules>
+    <global>
+        <blocks>
+            <rossmc_stocksold>
+                <class>Rossmc_Stocksold_Block</class>
+            </rossmc_stocksold>
+        </blocks>
+        <models>
+            <rossmc_stocksold>
+                <class>Rossmc_Stocksold_Model</class>
+                <resourceModel>rossmc_stocksold_resource</resourceModel>
+            </rossmc_stocksold>
+            <rossmc_stocksold_resource>
+                <class>Rossmc_Stocksold_Model_Resource</class>
+            </rossmc_stocksold_resource>
+        </models>
+        <helpers>
+            <rossmc_stocksold>
+                <class>Rossmc_Stocksold_Helper</class>
+            </rossmc_stocksold>
+        </helpers>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <Rossmc_Stocksold_Adminhtml after="Mage_Adminhtml">Rossmc_Stocksold_Adminhtml</Rossmc_Stocksold_Adminhtml>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>
